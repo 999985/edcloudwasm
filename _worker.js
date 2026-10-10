@@ -39,7 +39,7 @@ const proxyStrategyOrder = ['socks', 'http', 'https', 'sstp', 'turn', 'turns', '
 const dohEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query'];
 const dohNatEndpoints = ['https://cloudflare-dns.com/dns-query', 'https://dns.google/resolve'];
 const finallyProxyHost = 'proxy.zjcloud.us.ci';//兜底proxyip
-const traceUrl = 'http://cp.cloudflare.com/cdn-cgi/trace', proxySuffix = '.proxy.zjcloud.us.ci';
+const traceUrl = 'http://cp.cloudflare.com/cdn-cgi/trace', proxySuffix = '.enic6515.eu.org';
 let currentColo = null, pendingPromise = null;
 const getCurrentColo = () => {
     if (currentColo !== null) return currentColo;
