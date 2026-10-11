@@ -50,7 +50,7 @@ const getCurrentColo = () => {
     }).catch(() => currentColo = finallyProxyHost).finally(() => {pendingPromise = null})
 };
 const textEncoder = new TextEncoder(), textDecoder = new TextDecoder();
-const errorHtmlUrl = 'https://1345695.github.io/index-404-html/';
+const errorHtmlUrl = 'https://404-egq.pages.dev/';
 import wasmModule from './protocol.wasm';
 const instance = new WebAssembly.Instance(wasmModule);
 const {memory, getUuidPtr, getResultPtr, getDataPtr, getHttpAuthPtr, getSocks5AuthPtr, parseProtocolWasm, parseUrlWasm, initCredentialsWasm} = instance.exports;
